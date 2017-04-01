@@ -14,11 +14,11 @@ module.exports = function(arr) {
             if (!isSwap) {
                 return arr;
             }
-            
+
             i = 0;
             isSwap = false;
             continue;
-        }   
+        }
 
         if (arr[i] > arr[i + 1]) {
             let lowest = arr[i];
